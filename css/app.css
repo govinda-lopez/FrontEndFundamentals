@@ -1,0 +1,237 @@
+/*reglas generales*/
+body {
+    padding: 0%;
+    margin: 0;
+}
+h1{
+    width: 100%;
+    height: 50px;
+    font-size: 2rem;
+    font-family: 'Playfair';
+    color: #000;
+    text-align: center;
+}
+h2{
+    width: 100%;
+    height: 40%;
+    font-family: Playfair;
+    color: #000;
+    text-align: center;
+}
+h3{
+    width: 100%;
+    height: 30px;
+    color:#ffffff;
+    text-align: center;
+    margin-top: 5px;
+    float: left;
+}
+span{
+    color: #037bc0;
+}
+footer{
+    width: 100%;
+    height: 60px;
+    font-family: 'Raleway';
+    font-size: 0.8rem;
+    text-align: center;
+    float: left;
+}
+.hero{
+    width: 100%;
+    height: 300px;
+    background-color: #5ea2e6;
+    font-family: 'Raleway';
+    font-size: 4rem;
+    display: flex; /* esta linea es para centrar texto */
+    justify-content: center;
+    align-items: center;
+    color:#ffffff;
+}
+
+/** Contenedores */
+.container1{
+    width: 80%;
+    height: 250px;
+    border: 1px solid  #C7C8C9;
+    border-radius: 10px;
+    margin-left: 10%
+}
+.container2{
+    width: 80%;
+    height: 400px;
+    margin-left: 10%;
+    margin-top: 5px;
+    float: left;
+    border-radius: 10px;
+}
+.container3{
+    width: 80%;
+    height: 400px;
+    margin-left: 10%;
+    margin-top: 5px;
+    float: left;   
+}
+.container4{
+    width: 80%;
+    height: 350px;
+    margin-left: 10%;
+    margin-top: 5px;
+    float: left; 
+}
+.container5{
+    width: 80%;
+    height: 350px;
+    margin-left: 10%;
+    margin-top: 5px;
+    float: left; 
+}
+
+/** Productos */
+.contenedor-imagen-producto-1{
+    width: 70%;
+    height: 250px;
+    box-sizing: border-box;
+    overflow: scroll;
+    float: left;
+}
+.contenedor-descripcion-producto-1{
+    width: 30%;
+    height: 250px;
+    background-color: #037bc0;
+    float: left;
+    border-radius: 0px 10px 10px 0px;
+}
+.contenedor-texto-producto{
+    width: 80%;
+    height: 80px;
+    font-family: 'Raleway';
+    font-size: 0.8rem;
+    color: #ffffff;
+    margin-left: 10%;
+    float: left;
+}
+.contenedor-precio-producto{
+    height: 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Raleway';
+    float: left;
+    width: 100%;
+}
+.boton{
+    width: 50%;
+    height: 50px;
+    margin-top: 3px;
+    float: left;
+    margin-left: 25%;
+}
+.contenedor-producto-2{
+    width: 49%;
+    height: 400px;
+    float: left;
+    border-radius: 10px;
+    border: 1px solid  #C7C8C9;
+}
+.contenedor-imagen-producto-2{
+    width: 100%;
+    height: 200px;
+    float: left;
+    box-sizing: border-box;
+    overflow: scroll;
+}
+.contenedor-descripcion-producto-2{
+    width: 100%;
+    height: 200px;
+    float: left;
+    background-color: #037bc0;
+    border-radius: 0px 0px 10px 10px;
+}
+.contenedor-texto-producto-2{
+    width: 80%;
+    height: 50px;
+    margin-top: 3px;
+    font-family: 'Raleway';
+    font-size: 0.8rem;
+    color: #ffffff;
+    float: left;
+    margin-left: 10%;
+}
+.contenedor-producto-3{
+    width: 49%;
+    height: 400px;
+    float: left;
+    border-radius: 10px;
+    border: 1px solid  #C7C8C9;
+    margin-left: 2%;
+}
+.contenedor-producto-4{
+    width: 32%;
+    height: 400px;
+    margin-right: 2%;
+    float: left;
+}
+.contenedor-producto-5{
+    width: 32%;
+    height: 400px;
+    float: left;
+}
+.contenedor-producto-6{
+    width: 32%;
+    height: 400px;
+    margin-left: 2%;
+    float: left;  
+}
+
+/** Categorías */
+.categoria1{
+    width: 32%;
+    height: 300px;
+    margin-right: 2%;
+    float: left;
+}
+.texto-categoria{
+    width: 80%;
+    height: 50px;
+    margin-left: 10%;
+    font-family: 'Raleway';
+    font-size: 1rem;
+    text-align: center;
+}
+.categoria2{
+    width: 32%;
+    height: 300px;
+    float: left;  
+}
+.categoria3{
+    width: 32%;
+    height: 300px;
+    margin-left: 2%;
+    float: left; 
+}
+
+
+/** Imagenes */
+.imagen1{
+    border-radius: 10px 0px 10px 0px;
+}
+.imagen2{
+    border-radius: 10px 10px 0px 0px;
+}
+.imagen-categoria-1{
+    width: 100%;
+    height: 251px;
+    float: left;
+}
+
+/** Listas */
+.listas{
+    width: 80%;
+    height: 50px;
+    margin-left: 10%;
+    font-family: 'Raleway';
+    font-size: 0.8rem;
+    text-align: center;
+    float: left;
+}
